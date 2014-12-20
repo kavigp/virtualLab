@@ -1,0 +1,77 @@
+{
+    "lab": {
+      "description": {
+            "id": "K039",
+            "name": "acdf",
+            "discipline": ["ise"],
+            "status": "true",
+            "type": "dfdf",
+            "integration_level": 0,
+            "server-side": true,
+            "developer": [
+                {
+                    "contact": {
+                        "email": "kkk@mail.com",
+                        "alternate_email": "sss.@ghhg.com",
+                        "mobile_number": "1234567899",
+                        "office_number": "080266789"
+                    },
+                    "department": "ife",
+                    "institute": "sdfd",
+                    "name": "dfsdf",
+                    "organization": "dfgdg",
+                    "role": "rerer",
+                    "title": "fdfdf",
+                    "web": "fdfdff"
+                }
+            ]
+        },
+        "build_requirements": {
+            "platform": {
+                "arch": "",
+                "build_steps": {
+                    "build": ["make -C ../src"],
+                    "configure": [],
+                    "post_build": [],
+                    "pre_build": [],
+                    "status": []
+                },
+                "installer": [],
+                "os": "ubuntu",
+                "osVersion": "12",
+                "service_pack": ""
+            }
+        },
+        "runtime_requirements": {
+            "platform": {
+                "arch": "",
+                "hosting": "",
+                "installer": [""],
+                "lab_actions": {
+                    "backup": [],
+                    "clean": [],
+                    "init": [""],
+                    "pause": [],
+                    "publish": [],
+                    "restore": ["restore"],
+                    "resume": [],
+                    "shutdown": [""],
+                    "start": [""],
+                    "stats": [],
+                    "stop": []
+                },
+                "memory": {
+                    "max_required": "",
+                    "min_required": ""
+                },
+                "os": "ubuntu",
+                "osVersion": "12",
+                "servicepack": "",
+                "storage": {
+                    "min_required": ""
+                }
+            }
+        }
+    },
+    "template": "1.0"
+}
